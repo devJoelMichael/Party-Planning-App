@@ -1,0 +1,267 @@
+/* # # # # # # # # # # -  M A I N  - # # # # # # # # # # */
+
+body {
+  flex: auto;
+  margin: 1em;
+  text-align: center;
+  align-items: center;
+  background-color: #EDF6F9;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* # # # # # # # # # # -  H E A D E R  - # # # # # # # # # # */
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  height: 275px;
+  width: 1550px;
+  border: 15px solid #FFDDD2;
+  box-shadow:10px 10px 5px #006D77;
+  margin: 25px auto;
+
+
+  background-color: #83C5BE;
+  box-sizing: border-box;
+  background-image: url("/images/happy.png"), url("/images/happy.png");
+  background-repeat: no-repeat;
+  background-position:  
+    top 10px left 10px,
+    top 10px right 10px,
+    bottom 10px right 10px,
+    bottom 10px left 10px;
+  background-size: 250px;
+}
+
+.headerTitle {
+  font-display: center;
+  letter-spacing: 0.2em; margin-right: -0.5em;
+  margin: 15px auto;
+  font-size: 110px;
+  color: #E29578;
+  text-shadow:5px 5px 10px black;
+}
+
+/* # # # # # # # # # # -  G U E S T  - # # # # # # # # # # */
+
+.guests {
+  font-size: 35px;
+  color: #E29578;
+  text-shadow: 2px 2px 2px black;
+}
+
+.one {
+  margin-left: 10px;
+}
+
+/* # # # # # # # # # # -  B U D G E T  - # # # # # # # # # # */
+
+.inputz {
+  margin: 15px;
+}
+
+.budge {
+  font-size: 35px;
+  color: #E29578;
+  text-shadow: 2px 2px 2px black;
+}
+
+.two {
+  margin-left: 10px;
+}
+
+.stayInBudge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  height: 100px;
+  width: 300px;
+  border: 15px solid #FFDDD2;
+  box-shadow:10px 10px 5px #006D77;
+  
+  margin: 15px auto;
+  background-color: #83C5BE;
+}
+
+.overBudge {
+  font-size: 35px;
+  font-weight: bolder;
+  color: red;
+  text-shadow: 3px 3px 5px black;
+}
+
+.underBudge {
+  font-size: 30px;
+  font-weight: bold;
+  color:#006D77;
+  text-shadow:1px 1px 2px black;
+}
+
+/* # # # # # # # # # # -  I T E M  - # # # # # # # # # # */
+
+.itemList {
+    /* background-image: none; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 700px;
+    width: 500px;
+    border: 15px solid #FFDDD2;
+    box-shadow:10px 10px 5px #006D77;
+    
+    margin: 0 auto;
+    background-color: #83C5BE;
+}
+
+.actualItems {
+  padding: 2px;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.addItem {
+  margin-left: 15px;
+  background-color: #EDF6F9;
+  color: #006D77;
+}
+
+/* # # # # # # # # # # -  C  A  R  T  - # # # # # # # # # # */
+
+.cartBorder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  /* height: 100px; */
+  width: 300px;
+  border: 15px solid #FFDDD2;
+  box-shadow:10px 10px 5px #006D77;
+  margin: 15px auto;
+  background-color: #83C5BE;
+}
+
+.cartName {
+  font-size: 30px;
+}
+
+.cartItems {
+  font-size: 18px;
+}
+
+/* # # # # # # # # # # -  T O T A L  - # # # # # # # # # # */
+
+.totalBorder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  height: 100px;
+  width: 300px;
+  border: 15px solid #FFDDD2;
+  box-shadow:10px 10px 5px #006D77;
+  
+  margin: 15px auto;
+  background-color: #83C5BE;
+}
+
+.totalName {
+  
+}
+
+.totalTotal {
+  font-size: 25px;
+  font-weight: 10px;
+}
+
+.totalBottomBox {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  /* margin-left: 425px; */
+}
+
+.everythingButCart {
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* # # # # # # # # # # -  I M A G E S  - # # # # # # # # # # */
+
+.manOne {
+  transform: scaleX(-1);
+  height: 650px;
+  width: 500px;
+  float: left;
+}
+
+.manTwo {
+  height: 650px;
+  width: 500px;
+  float: right;
+}
+
+.poppersOne {
+  margin-left: 50px;
+  margin-top: 25px;
+  height: 400px;
+  width: 450px;
+  float: left;
+}
+
+.poppersTwo {
+  margin-right: 50px;
+  margin-top: 25px;
+  transform: scaleX(-1);
+  height: 400px;
+  width: 450px;
+  float: right;
+}
+
+.birthday {
+  margin-top: 100px;
+  float: center;
+  height: 350;
+  width: 250;
+}
+
+.bottlesOne {
+  margin-left: -365px;
+  margin-top: 275px;
+  height: 325px;
+  width: 325px;
+  float: left;
+}
+
+.bottlesTwo {
+  transform: scaleX(-1);
+  margin-right: -365px;
+  margin-top: 275px;
+  height: 325px;
+  width: 325px;
+  float: right;
+}
+
+/* # # # # # # # # # # -  C L O S I N G  - # # # # # # # # # # */
+
+.closing {
+  color: #E29578;
+  text-shadow:3px 3px 7px black;
+  font-size: 100px;
+  justify-content: center;
+  margin: 15px auto;
+}
+
